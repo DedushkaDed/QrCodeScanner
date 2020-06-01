@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">QrCodeScanner</string>
     <string name="qr_scanner_app">QR Сканер</string>
+    <string name="scan">Сканировать</string>
+    <string name="recent_scanned">История</string>
+    <string name="favourites">Избранное</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
