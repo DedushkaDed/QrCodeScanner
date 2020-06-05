@@ -1,4 +1,4 @@
-package gleb.kalinin.qrcodescanner.ui.scanner
+package gleb.kalinin.qrcodescanner.ui.ui.scanner
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

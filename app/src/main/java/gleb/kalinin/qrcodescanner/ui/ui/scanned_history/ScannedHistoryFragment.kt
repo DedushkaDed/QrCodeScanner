@@ -1,4 +1,4 @@
-package gleb.kalinin.qrcodescanner.ui.scanned_history
+package gleb.kalinin.qrcodescanner.ui.ui.scanned_history
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

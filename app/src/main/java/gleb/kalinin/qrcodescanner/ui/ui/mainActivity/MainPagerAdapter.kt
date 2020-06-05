@@ -1,10 +1,10 @@
-package gleb.kalinin.qrcodescanner.ui.mainActivity
+package gleb.kalinin.qrcodescanner.ui.ui.mainActivity
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentStatePagerAdapter
-import gleb.kalinin.qrcodescanner.ui.scanned_history.ScannedHistoryFragment
-import gleb.kalinin.qrcodescanner.ui.scanner.QrScannerFragment
+import gleb.kalinin.qrcodescanner.ui.ui.scanned_history.ScannedHistoryFragment
+import gleb.kalinin.qrcodescanner.ui.ui.scanner.QrScannerFragment
 
 class MainPagerAdapter(var fm : FragmentManager) : FragmentStatePagerAdapter(fm) {
 

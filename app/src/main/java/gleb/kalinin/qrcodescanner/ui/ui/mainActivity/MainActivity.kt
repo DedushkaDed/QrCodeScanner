@@ -1,8 +1,7 @@
-package gleb.kalinin.qrcodescanner.ui.mainActivity
+package gleb.kalinin.qrcodescanner.ui.ui.mainActivity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import androidx.viewpager.widget.ViewPager
 import gleb.kalinin.qrcodescanner.R
 import kotlinx.android.synthetic.main.activity_main.*

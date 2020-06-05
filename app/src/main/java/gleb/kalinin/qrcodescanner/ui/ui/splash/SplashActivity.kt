@@ -1,4 +1,4 @@
-package gleb.kalinin.qrcodescanner.ui.splash
+package gleb.kalinin.qrcodescanner.ui.ui.splash
 
 import android.Manifest
 import android.content.Intent
@@ -12,7 +12,7 @@ import android.provider.Settings.ACTION_APPLICATION_DETAILS_SETTINGS
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.core.app.ActivityCompat
-import gleb.kalinin.qrcodescanner.ui.mainActivity.MainActivity
+import gleb.kalinin.qrcodescanner.ui.ui.mainActivity.MainActivity
 import gleb.kalinin.qrcodescanner.R
 
 
