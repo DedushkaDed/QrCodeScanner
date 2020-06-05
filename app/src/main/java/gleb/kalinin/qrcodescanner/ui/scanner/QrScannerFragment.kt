@@ -90,6 +90,8 @@ class QrScannerFragment : Fragment(), ZXingScannerView.ResultHandler {
 
     override fun handleResult(rawResult: Result?) {
         Toast.makeText(context!!, rawResult?.text, Toast.LENGTH_SHORT).show()
+        // После того, как мы прочитали Qr-code, мы обновляем нашу камеру. Для того, чтобы камера не зависала - после чтения Qr-кода.
+        scannerView.resumeCameraPreview(this)
     }
 
 }
