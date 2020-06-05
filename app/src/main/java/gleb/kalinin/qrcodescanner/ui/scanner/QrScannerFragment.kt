@@ -36,9 +36,9 @@ class QrScannerFragment : Fragment(), ZXingScannerView.ResultHandler {
     private fun onClicks() {
         mView.flashToggle.setOnClickListener {
             if(it.isSelected){
-                onFlashLight()
-            } else {
                 offFlashLight()
+            } else {
+                onFlashLight()
             }
         }
     }
