@@ -2,6 +2,9 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
+// Room Database library
+apply plugin: 'kotlin-kapt'
+
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
@@ -38,7 +41,10 @@ dependencies {
 
     //Google material Design Library
     implementation 'com.google.android.material:material:1.1.0'
-
     // Qr Scanner Library
     implementation 'me.dm7.barcodescanner:zxing:1.9.13'
+    // Room Database Library
+    def room_version = "2.2.5"
+    implementation "androidx.room:room-runtime:$room_version"
+    kapt "androidx.room:room-compiler:$room_version"
 }
